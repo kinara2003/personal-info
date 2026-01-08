@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #0078D7;
+  padding: 10px;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a,
+header nav ul li button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Headings should use the site accent blue instead of the default grey */
+h2 {
+  color: #0078D7;
+}
+
+img {
+  border-radius: 50%;
+}
+
+/* Profile box around name and undergraduate info */
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #0078D7;
+  padding: 16px;
+  border-radius: 8px;
+  background: #ffffff;
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+
+.profile-box img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-info .name {
+  margin: 0;
+  font-size: 24px;
+  color: #0078D7;
+}
+
+.profile-info .education {
+  margin: 4px 0;
+  color: #555;
+}
+
+.profile-info .intro {
+  margin-top: 8px;
+}
+
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+}
+
+.dark-theme .profile-box {
+  background: #2b2b2b;
+  border-color: #61dafb;
+}
+
+.dark-theme .profile-info .name {
+  color: #61dafb;
+}
+
+.dark-theme .profile-info .education {
+  color: #ddd;
+}
